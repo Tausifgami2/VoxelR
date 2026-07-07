@@ -1,0 +1,45 @@
+{
+  "modmenu.nameTranslation.voxelr": "VoxelR",
+  "modmenu.descriptionTranslation.voxelr": "GPU-accelerated voxel terrain renderer. No mesh building. No CPU lighting. One draw call.",
+
+  "category.voxelr": "VoxelR",
+
+  "key.voxelr.open_gui": "Open VoxelR Menu",
+  "key.voxelr.toggle": "Toggle VoxelR / Vanilla",
+  "key.voxelr.debug_overlay": "Toggle Debug Overlay",
+  "key.voxelr.freeze_chunks": "Freeze/Unfreeze Chunk Loading",
+  "key.voxelr.toggle_fog": "Toggle Fog",
+  "gui.voxelr.title": "VoxelR",
+  "gui.voxelr.config.title": "VoxelR — Configuration",
+  "gui.voxelr.debug.title": "VoxelR — Debug Overlay",
+
+  "gui.voxelr.btn.configure": "Configure Renderer",
+  "gui.voxelr.btn.debug": "Debug Overlay",
+  "gui.voxelr.btn.toggle": "Toggle Renderer (F7)",
+  "gui.voxelr.btn.close": "Close",
+  "gui.voxelr.btn.save_close": "Save & Close",
+  "gui.voxelr.btn.cancel": "Cancel",
+
+  "config.voxelr.enabled": "Enable VoxelR Renderer",
+  "config.voxelr.render_distance": "Render Distance",
+  "config.voxelr.gpu_frustum_culling": "GPU Frustum Culling",
+  "config.voxelr.gpu_lighting": "GPU Lighting (Phase 4 — Experimental)",
+  "config.voxelr.lod_start_distance": "LOD Start Distance",
+  "config.voxelr.lod_macro_voxel_size": "LOD Macro-voxel Size",
+  "config.voxelr.show_debug_overlay": "Debug Overlay",
+  "config.voxelr.show_gpu_timing": "GPU Timing in Overlay",
+  "config.voxelr.ssbo_prealloc_mb": "SSBO Prealloc (MB)",
+  "config.voxelr.max_diff_writes_per_frame": "Max Diffs/Frame",
+
+  "voxelr.status.enabled": "VoxelR: §aEnabled",
+  "voxelr.status.disabled": "VoxelR: §cDisabled",
+  "voxelr.status.renderer_ready": "VoxelR GPU renderer ready.",
+  "voxelr.status.renderer_error": "VoxelR renderer failed to initialize — check logs.",
+
+  "voxelr.debug.nodes": "Nodes",
+  "voxelr.debug.visible": "Visible",
+  "voxelr.debug.frame": "Frame",
+  "voxelr.debug.vram": "VRAM Est.",
+  "voxelr.debug.phase": "Phase"
+}
+

@@ -1,0 +1,16 @@
+accessWidener v2 official
+
+# Allow reading chunk section data directly during ingestion
+accessible class net/minecraft/world/level/chunk/LevelChunkSection
+accessible method net/minecraft/world/level/chunk/LevelChunkSection getBlockState (III)Lnet/minecraft/world/level/block/state/BlockState;
+
+# Allow direct ServerLevel access for ChunkRequestManager
+accessible class net/minecraft/server/level/ServerLevel
+
+# Expose GlTextureView.firstFboId for accessing main render target FBO
+accessible class com/mojang/blaze3d/opengl/GlTextureView
+accessible field com/mojang/blaze3d/opengl/GlTextureView firstFboId I
+
+# Expose GlTexture.id for direct atlas texture binding (bypass reflection)
+accessible class com/mojang/blaze3d/opengl/GlTexture
+accessible field com/mojang/blaze3d/opengl/GlTexture id I
